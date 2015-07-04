@@ -2,3 +2,8 @@ jordan:
     name: Jordan Storz
     email: jordan.matt.storz@gmail.com
     password_digest: <%= User.digest('password') %>
+
+franklin:
+    name: Ben Franklin
+    email: framerguy@hotmail.com
+    password_digest: <%= User.digest('password') %>
