@@ -3,6 +3,17 @@
 
 $light-gray : #777;
 
+#image-stripe-jordan-top {
+	z-index: 1;
+	position: absolute;
+	width: 100%;
+	height: 5px;
+//	background-color: red;
+	margin-top: -12px;
+	background-image: url("background.jpg");
+	background-size: 80px 60px;
+}
+
 /* mix-ins, variables, etc */
 
 @mixin box_sizing {
